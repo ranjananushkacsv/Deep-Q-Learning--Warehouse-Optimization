@@ -83,18 +83,6 @@ python warehouse_qlearning.py
 
 You'll see live training logs and the four PNG charts will be saved in the project folder.
 
-## Project Structure
-
-```
-warehouse-qlearning/
-├── warehouse_qlearning.py   # Complete implementation (~200 lines, fully commented)
-├── training_curve.png       # Generated after running
-├── learned_policy.png       # Generated after running
-├── qvalue_heatmap.png       # Generated after running
-├── kpi_comparison.png       # Generated after running
-└── README.md
-```
-
 ## How the Code Is Organized
 
 | Section | What it does |
@@ -126,7 +114,7 @@ This project is a faithful miniature of that pipeline.
 - Replace the Q-table with a Deep Q-Network (PyTorch)
 - Compare against classical pathfinding (A*, Dijkstra)
 
-## 📚 Key Concepts Demonstrated
+## Key Concepts Demonstrated
 
 `Reinforcement Learning` · `Q-Learning` · `Bellman Equation` · `ε-Greedy Exploration` · `Reward Shaping` · `Policy Extraction` · `Process Optimization`
 
