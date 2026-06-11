@@ -21,7 +21,7 @@ S . . . . . . . . .      S = Start (inbound station)
 . . . . . . . . . G
 ```
 
-## How It Learns (Plain English)
+## How It Learns 
 
 Imagine a new delivery worker with a notebook:
 
